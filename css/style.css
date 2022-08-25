@@ -188,6 +188,7 @@ h1{
 
 .cfaq{
     margin-bottom: 7vh;
+    width: 70vw;
 }
 
 /* CONTENIDO */
@@ -237,5 +238,20 @@ h1{
         width: 100%;
         max-height: 50vh;
         object-fit: contain;
+    }
+    .footer { 
+        height: 30vh;
+        width: 100vw;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        padding: 2vh 0;
+        margin: auto;
+        height: 9vh;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 3vh;
     }
 }
